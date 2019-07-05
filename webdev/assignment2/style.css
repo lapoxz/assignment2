@@ -1,0 +1,77 @@
+/*navigation bar*/
+.navbar>img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    color: rgb(255, 30, 0);
+    font-style: oblique;
+    font-weight: bold;
+}
+.nav-link{
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: rgb(16, 214, 122);
+
+}
+/*navigation bar end here*/
+
+
+/*jumbptron starts here*/
+.jumbotron {
+    height: 200px;
+    background-image: url(img/bg2.jpg);
+}
+
+/*jumbptron ends here*/
+
+/*body shop starts here*/
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    margin-top: 300px;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #shoes {
+    top: 20px;
+    background-color: #4CAF50;
+  }
+  
+  #bags {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #shirts {
+    top: 140px;
+    background-color: #f44336;
+  }
+  
+  #pants {
+    top: 200px;
+    background-color: #555
+  }
+/*body shop ends here*/
+
+/*product items starts here*/
+img{
+    height: 200px;
+    width: 150px;
+}
+
+/*product items ends here*/
